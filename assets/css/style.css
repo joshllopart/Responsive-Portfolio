@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background: lightgray;
 }
 
 * {
@@ -151,7 +151,7 @@ h3, h2 {
 .work img {
   width: 100%;
   border: 0 none;
-  opacity: 0.8;
+  
 }
 
 .work h3 {
@@ -168,9 +168,9 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.auth-image {
+.profile {
   float: left;
-  width: 200px;
+  width: 250px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
@@ -215,3 +215,33 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max-width: 650px) {
+  .container {
+    width: 100%;
+    }
+
+    .profile {
+   width: 100%;
+    }
+
+    h1 {
+      width: 100%;
+    }
+
+    #logo {
+   width: 100%;
+  
+    }
+
+    nav {
+      width: 100%;
+      margin: ;
+    }
+
+    .work {
+      width:100%;
+    }
+  }
+
+  
